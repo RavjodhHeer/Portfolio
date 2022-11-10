@@ -1,6 +1,7 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "Hello! My name is Sreerag Rajan. I'm an aspiring web developer based in India.",
-    description2: "I am a student at Masai School, currently learning Fullstack Web-Development. A project that I worked on towards the end of my Master’s in History set me on this path of a web developer. The project involved looking at movies on historical themes that could be considered as an educational tool. The website was not the focus of the project, but working on it was such a thrilling experience that a career in this felt like a right fit. Other than this I am a bibliophile, who not just loves reading books but also buying and maintaining a personal library.",
+    title: "About Me",
+    description1: "Hello! I'm Ravjodh Heer, I am a Senior pursuing Computer Science at UC Santa Cruz.",
+    description2: "I'm a self-taught programmer that specializes in full-stack web development and cloud applications. I love to fuel my innovation by exploring creative ideas and executing them. I've always been fascinated with the idea of how things worked - which in addition to my love of computers and digital media, led me to where I am today and kickstarted my software development passion.",
+    description3: "Outside of work, I enjoy tinkering with computer hardware, playing video games, and messing with cars. These hobbies accelerate some of my creativity and trickle into the inspiration for some of my future project ideas!",
     image: 2
 }

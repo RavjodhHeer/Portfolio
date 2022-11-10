@@ -14,6 +14,8 @@ import {
     FaGithub,
     FaYoutube,
     FaBlogger,
+    FaInstagram,
+    FaFacebook,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -101,45 +103,32 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {/* {socialsData.twitter && (
+                        {socialsData.instagram && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.instagram}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaInstagram
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
+                                    aria-label='Instagram'
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {socialsData.facebook && (
                             <a
-                                href={socialsData.youtube}
+                                href={socialsData.facebook}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                <FaFacebook
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
+                                    aria-label='Facebook'
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
-                            <a
-                                href={socialsData.blogger}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaBlogger
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
-                                />
-                            </a>
-                        )} */}
                     </div>
                 </div>
                 <img
@@ -159,8 +148,8 @@ function Landing() {
                         className='lcr--content'
                         style={{ color: theme.tertiary }}
                     >
-                        <h6>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
+                        <h6>{headerData.title}</h6>
                         <p>{headerData.desciption}</p>
 
                         <div className='lcr-buttonContainer'>
@@ -172,7 +161,7 @@ function Landing() {
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Download CV
+                                        Resume
                                     </Button>
                                 </a>
                             )}
