@@ -16,13 +16,8 @@
   justify-content: space-between;
 }
 
-.about .line-styling .style-circle{
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-}
 .about .line-styling .style-line{
-  width: 95%;
+  width: 100%;
   height: 5px;
   border-radius: 10px;
 }
@@ -64,7 +59,7 @@
 }
 
 .about-img > img {
-    width: 380px;
+    width: 400px;
     flex: 0.5;
 }
 
@@ -79,7 +74,7 @@
     }
 
     .about-img>img {
-        width: 300px;
+        width: 400px;
     } 
 }
 
