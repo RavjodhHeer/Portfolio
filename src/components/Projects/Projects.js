@@ -58,6 +58,7 @@ function Projects() {
                                     key={project.id}
                                     id={project.id}
                                     name={project.projectName}
+                                    role={project.projectRole}
                                     desc={project.projectDesc}
                                     tags={project.tags}
                                     code={project.code}

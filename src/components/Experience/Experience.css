@@ -1,5 +1,5 @@
 .experience{
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 .experience-body {
@@ -83,12 +83,12 @@
     padding: 1rem;
     flex: 0.35;
     margin-left: 7%;
-    margin-top: 1rem;
     pointer-events: none;
 }
 
 .experience-image > img {
     width: 100%;
+    margin-top: 4rem;
     pointer-events: none;
 }
 

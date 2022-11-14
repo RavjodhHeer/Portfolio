@@ -14,7 +14,8 @@ function Main() {
             <Navbar />        
             <Landing />
             <About />
-            <Education />            
+            <Education /> 
+            <Experience />   
             <Skills />
             <Projects />
             {/*<Achievement />*/}

@@ -1,74 +1,46 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
+import roomy_demo from '../assets/svg/projects/roomy_demo_screenshot.png'
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'History Through Movies',
-        projectDesc: 'This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.',
-        tags: ['Django', 'HTML' ,'CSS', 'Javascript'],
-        code: 'https://github.com/sreerag-rajan/historythroughmovies',
-        demo: 'https://historythroughmovies.pythonanywhere.com/',
-        image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
+        projectName: 'Roomy',
+        projectRole: 'Founder - Lead Developer',
+        projectDesc: '"Like a LinkedIn for rentals". A social media platform built to connect renters and landlords in order to bridge the social gap in the rental application process. Provides a more casual, online relationship between landlords and renters and allows landlords to see more in a potential tenant rather than data on a rental application.',
+        tags: ['React', 'HTML' ,'CSS', 'Javascript', 'Firebase'],
+        code: 'https://github.com/RavjodhHeer/Roomy',
+        demo: 'https://roomy-e2f16.web.app/',
+        image: roomy_demo,
     },
     {
         id: 2,
-        projectName: 'Sportsjam.in Clone',
-        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
-        tags: ['HTML', 'CSS','Javascript'],
-        code: 'https://github.com/sreerag-rajan/sportsjam-clone',
-        demo: 'https://practical-meninsky-36f305.netlify.app/',
-        image: "https://camo.githubusercontent.com/f9fbe30b577cff2fbf09af53fb3c1f12fcc10a771bf9459ed5af10bffab9e38b/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3837352f312a525f5f63646e384c316759474b3154647171797562672e706e67"
+        projectName: 'CardBoard',
+        projectRole: 'Sole Developer',
+        projectDesc: 'Python digital card/board game utilizing pygame graphics library and randomization algorithms for bot decision making. CardBoard introduces a simple role-playing board game style with a card game twist and offers hours of fun for a single player vs bots online game. Entire project is hosted on AWS cloud for easy hosting and access for all players.',
+        tags: ['Python', 'Pygame','AWS'],
+        code: 'https://github.com/RavjodhHeer/Projects/tree/master/Digital%20luck%20based%20board%20game',
+        demo: 'https://github.com/RavjodhHeer/Projects/tree/master/Digital%20luck%20based%20board%20game',
+        image: "https://cdn.thewirecutter.com/wp-content/media/2021/07/boardgames-2048px-1551.jpg?auto=webp&quality=75&width=1024"
     },
     {
         id: 3,
-        projectName: 'Educative Clone',
-        projectDesc: 'This project is the clone of Educative.io. Built as part of Project week, my contributions include the home page(both with user and without user), course information page and checkout page. The rest of the pages and features were built by other members of my team',
-        tags: ['React', 'Material UI', 'Express', "MongoDB","NodeJS"],
-        code: 'https://github.com/sreerag-rajan/educative-clone',
-        demo: 'https://educative-clone.vercel.app/',
-        image: "https://user-images.githubusercontent.com/85482640/161571651-35ab8e4e-dc57-4834-bafc-9485766f5b8a.png"
+        projectName: 'File Compressor/Encryptor',
+        projectRole: 'Sole Developer',
+        projectDesc: 'A file compression program built entirely in C which also encrypts the file through the use of the Hamming(8, 4) technique. Program also contains a decryptor/decompressor which returns compressed/encrypted files to normal state. Utilizes bitvector bitmatrix data structures to aid in program calculations.',
+        tags: ['C', 'Makefile', 'Linux', "Git"],
+        code: 'https://github.com/RavjodhHeer/Projects/tree/master/File%20Compressor-Encryptor%20in%20C',
+        demo: 'https://github.com/RavjodhHeer/Projects/tree/master/File%20Compressor-Encryptor%20in%20C',
+        image: "https://www.devteam.space/wp-content/uploads/2019/01/How-To-Build-Your-Own-File-Encryption-Software.jpeg"
     },
     {
         id: 4,
-        projectName: 'Reliance Digital Clone - Backend Integration',
-        projectDesc: 'This is the clone of reliancedigital.in. Features I worked on the Product Catalogue pages and also on some minor parts on other pages as well',
-        tags: ['EJS', 'Express', 'MongoDB', 'Node.js'],
-        code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
-    },
-    {
-        id: 5,
-        projectName: 'Reliance Digital Clone - Frontend',
-        projectDesc: 'This project is the clone of Reliance Digital built as a part of a project week. It simulates the functionality of an e-commerce website from landing page to checkout. My contribution was the product catalog page arriving from the navbar, as well as leading the team.',
-        tags: ['HTML', 'CSS', 'Javascript'],
-        code: 'https://github.com/iamrituyadav/Reliance_digital',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        projectName: 'Text Censor/Firewall',
+        projectRole: 'Sole Developer',
+        projectDesc: 'Text censorship program built entirely in C which given an input of main text, "banned" words and their corressponding replacements, returns the text file with all instances of "banned" words replaced with their replacements. Utilizes Hashtables, Bloomfilter, and LinkedLists to aid in program calculations.',
+        tags: ['C', 'Makefile', 'Linux', "Git"],
+        code: 'https://github.com/RavjodhHeer/Projects/tree/master/Text%20Censor-Firewall%20in%20C',
+        demo: 'https://github.com/RavjodhHeer/Projects/tree/master/Text%20Censor-Firewall%20in%20C',
+        image: "https://merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/censor-2522-aab35d398766fe9ebb289127a3fe9b40@1x.jpg"
     },
     
 ]
-
-
-// Do not remove any fields.
-// Leave it blank instead as shown below
-
-/* 
-{
-    id: 1,
-    projectName: 'Car Pooling System',
-    projectDesc: '',
-    tags: ['Flutter', 'React'],
-    code: '',
-    demo: '',
-    image: ''
-}, 
-*/

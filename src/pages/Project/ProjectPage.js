@@ -17,7 +17,7 @@ function ProjectPage() {
     const { theme } = useContext(ThemeContext);
 
     const filteredArticles = projectsData.filter((project) => {
-        const content = project.projectName + project.projectDesc + project.tags
+        const content = project.projectName + project.projectRole + project.projectDesc + project.tags
         return content.toLowerCase().includes(search.toLowerCase())
     })
 
@@ -27,14 +27,15 @@ function ProjectPage() {
             width: '40%',
             height: '2.75rem',
             outline: 'none',
-            border: 'none',
+            border: 'solid',
+            borderWidth: '2.5px',
+            borderColor: 'white',
             borderRadius: '20px',
             padding: '0.95rem 1rem',
             fontFamily: "'Noto Sans TC', sans-serif",
             fontWeight: 500,
             fontSize: '0.9rem',  
             backgroundColor: theme.secondary, 
-            boxShadow: theme.type === 'dark' ? 'inset 3px 3px 6px #ffffff10, inset -3px -3px 6px #00000060' : 'inset 3px 3px 6px #ffffffbd, inset -3px -3px 6px #00000030',
             "&::placeholder": {
                 color: theme.tertiary80, 
             },
@@ -48,15 +49,18 @@ function ProjectPage() {
             top: 25,
             left: 25,
             padding: '7px',
+            border: 'solid',
+            borderWidth: '2.5px',
+            borderColor: 'black',
             borderRadius: '50%',
             boxSizing: 'content-box',
             fontSize: '2rem',
             cursor: 'pointer',
-            boxShadow: theme.type === 'dark' ? '3px 3px 6px #ffffff40, -3px -3px 6px #00000050' : '3px 3px 6px #ffffff40, -3px -3px 6px #00000050',
             transition: 'all 0.3s ease-in-out',
             "&:hover": 
             {
                 color: theme.tertiary,
+                borderColor: 'white',
                 transform: 'scale(1.1)',
             },
             [t.breakpoints.down('sm')]: {
@@ -90,6 +94,7 @@ function ProjectPage() {
                                 key={project.id}
                                 id={project.id}
                                 name={project.projectName}
+                                role={project.projectRole}
                                 desc={project.projectDesc}
                                 tags={project.tags}
                                 code={project.code}
