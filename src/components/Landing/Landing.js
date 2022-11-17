@@ -148,6 +148,7 @@ function Landing() {
                         className='lcr--content'
                         style={{ color: theme.tertiary }}
                     >
+                        <h5>Hello! I'm</h5>
                         <h1>{headerData.name}</h1>
                         <h6>{headerData.title}</h6>
                         <p>{headerData.desciption}</p>
