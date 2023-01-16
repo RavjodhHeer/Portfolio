@@ -14,6 +14,16 @@ export const projectsData = [
     },
     {
         id: 2,
+        projectName: 'DetectX',
+        projectRole: 'Sole Developer',
+        projectDesc: 'AI license plate detection software that utilizes a machine learning algorithm to detect and mask license plates in images and then deploys optical character recognition(OCR) to decipher and return license plate text from masked image',
+        tags: ['Python', 'OpenCV','PyTesseract', 'AI', 'Machine Learning'],
+        code: 'https://github.com/RavjodhHeer/Projects/tree/master/Vin%20Decoder%20Detector%20in%20Python',
+        demo: 'https://github.com/RavjodhHeer/Projects/tree/master/Vin%20Decoder%20Detector%20in%20Python',
+        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shaip.com%2Fblog%2Fautomatic-number-plate-recognition-anpr%2F&psig=AOvVaw2G1wLxzBNBL2_5NhSTRKZG&ust=1673937679618000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMDwuvm9y_wCFQAAAAAdAAAAABAD"
+    },
+    {
+        id: 3,
         projectName: 'CardBoard',
         projectRole: 'Sole Developer',
         projectDesc: 'Python digital card/board game utilizing pygame graphics library and randomization algorithms for bot decision making. CardBoard introduces a simple role-playing board game style with a card game twist and offers hours of fun for a single player vs bots online game. Entire project is hosted on AWS cloud for easy hosting and access for all players.',
@@ -23,7 +33,7 @@ export const projectsData = [
         image: "https://cdn.thewirecutter.com/wp-content/media/2021/07/boardgames-2048px-1551.jpg?auto=webp&quality=75&width=1024"
     },
     {
-        id: 3,
+        id: 4,
         projectName: 'File Compressor/Encryptor',
         projectRole: 'Sole Developer',
         projectDesc: 'A file compression program built entirely in C which also encrypts the file through the use of the Hamming(8, 4) technique. Program also contains a decryptor/decompressor which returns compressed/encrypted files to normal state. Utilizes bitvector bitmatrix data structures to aid in program calculations.',
@@ -33,7 +43,7 @@ export const projectsData = [
         image: "https://www.devteam.space/wp-content/uploads/2019/01/How-To-Build-Your-Own-File-Encryption-Software.jpeg"
     },
     {
-        id: 4,
+        id: 5,
         projectName: 'Text Censor/Firewall',
         projectRole: 'Sole Developer',
         projectDesc: 'Text censorship program built entirely in C which given an input of main text, "banned" words and their corressponding replacements, returns the text file with all instances of "banned" words replaced with their replacements. Utilizes Hashtables, Bloomfilter, and LinkedLists to aid in program calculations.',
