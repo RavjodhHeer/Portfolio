@@ -20,7 +20,7 @@ export const projectsData = [
         tags: ['Python', 'OpenCV','PyTesseract', 'AI', 'Machine Learning'],
         code: 'https://github.com/RavjodhHeer/Projects/tree/master/Vin%20Decoder%20Detector%20in%20Python',
         demo: 'https://github.com/RavjodhHeer/Projects/tree/master/Vin%20Decoder%20Detector%20in%20Python',
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shaip.com%2Fblog%2Fautomatic-number-plate-recognition-anpr%2F&psig=AOvVaw2G1wLxzBNBL2_5NhSTRKZG&ust=1673937679618000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMDwuvm9y_wCFQAAAAAdAAAAABAD"
+        image: "https://www.shaip.com/wp-content/uploads/2022/08/Blog_Automatic-Number-Plate-Recognition-ANPR.jpg"
     },
     {
         id: 3,
