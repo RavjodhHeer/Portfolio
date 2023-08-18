@@ -7,6 +7,12 @@
     'Javascript',
     'CSS',
     'React',
+    'Next JS',
+    'Nuxt JS',
+    'Node JS',
+    'Vue',
+    'Angular',
+    'Typescript',
     'Git',
     'AWS',
     'Firebase',
@@ -23,12 +29,6 @@
     HTML
     CSS
     JS 
-    React
-    Next JS
-    Nuxt JS
-    Node JS
-    Vue
-    Angular
     Docker
     Photoshop
     Illustrator

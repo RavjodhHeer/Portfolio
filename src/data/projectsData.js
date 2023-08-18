@@ -24,13 +24,13 @@ export const projectsData = [
     },
     {
         id: 3,
-        projectName: 'CardBoard',
+        projectName: 'Car Deal Finder',
         projectRole: 'Sole Developer',
-        projectDesc: 'Python digital card/board game utilizing pygame graphics library and randomization algorithms for bot decision making. CardBoard introduces a simple role-playing board game style with a card game twist and offers hours of fun for a single player vs bots online game. Entire project is hosted on AWS cloud for easy hosting and access for all players.',
-        tags: ['Python', 'Pygame','AWS'],
-        code: 'https://github.com/RavjodhHeer/Projects/tree/master/Digital%20luck%20based%20board%20game',
-        demo: 'https://github.com/RavjodhHeer/Projects/tree/master/Digital%20luck%20based%20board%20game',
-        image: "https://cdn.thewirecutter.com/wp-content/media/2021/07/boardgames-2048px-1551.jpg?auto=webp&quality=75&width=1024"
+        projectDesc: 'Python application that automates the process of vehicle searching. Utilizes inputs from the user to web scrape and search for the best vehicles matching user input with complete vehicle data returned in an easy to understand format.',
+        tags: ['Python', 'Selenium','Car', 'Deal', 'Finder'],
+        code: 'https://github.com/RavjodhHeer/Projects/tree/master/CarDealFinder',
+        demo: 'https://github.com/RavjodhHeer/Projects/tree/master/CarDealFinder',
+        image: "https://cdn07.carsforsale.com/CustomTemplatePhotos/270695/photos/carfinder.33a4698e.jpg"
     },
     {
         id: 4,

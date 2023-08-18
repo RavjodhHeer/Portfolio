@@ -4,7 +4,7 @@ export const educationData = [
         institution: 'University of California Santa Cruz',
         course: 'B.S. Computer Science',
         startYear: '2019',
-        endYear: '2023 (expected)'
+        endYear: '2023'
     },
     {
         id: 2,

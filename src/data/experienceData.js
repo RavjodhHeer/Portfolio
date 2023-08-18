@@ -2,12 +2,19 @@ export const experienceData = [
     {
         id: 1,
         company: 'Amazon Web Services (AWS)',
-        jobtitle: 'Cloud Support Associate Intern',
-        startYear: 'Jun 2022',
-        endYear: 'Aug 2022'
+        jobtitle: 'Cloud Support Engineer',
+        startYear: 'Jun 2023',
+        endYear: 'Present'
     },
     {
         id: 2,
+        company: 'SproutLabs',
+        jobtitle: 'Software Engineer',
+        startYear: 'Jan 2023',
+        endYear: 'Jun 2023'
+    },
+    {
+        id: 3,
         company: 'Allstate Insurance',
         jobtitle: 'Licensed Sales Professional',
         startYear: 'Jun 2020',
