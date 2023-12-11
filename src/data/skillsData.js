@@ -10,6 +10,7 @@
     'Next JS',
     'Nuxt JS',
     'Node JS',
+    'Docker',
     'Vue',
     'Angular',
     'Typescript',
