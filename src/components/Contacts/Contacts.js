@@ -1,8 +1,4 @@
-import React, { useContext, useState } from 'react';
-import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
-import CloseIcon from '@material-ui/icons/Close';
-import axios from 'axios';
-import isEmail from 'validator/lib/isEmail';
+import React, { useContext } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import {
     FaLinkedinIn,
@@ -10,7 +6,6 @@ import {
     FaInstagram,
     FaFacebook,
 } from 'react-icons/fa';
-import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 
@@ -21,24 +16,7 @@ import { contactsData } from '../../data/contactsData';
 import './Contacts.css';
 
 function Contacts() {
-    const [open, setOpen] = useState(false);
-
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
-
-    const [success, setSuccess] = useState(false);
-    const [errMsg, setErrMsg] = useState('');
-
     const { theme } = useContext(ThemeContext);
-
-    const handleClose = (event, reason) => {
-        if (reason === 'clickaway') {
-            return;
-        }
-
-        setOpen(false);
-    };
 
     const useStyles = makeStyles((t) => ({
         input: {
@@ -121,37 +99,6 @@ function Contacts() {
     }));
 
     const classes = useStyles();
-
-    const handleContactForm = (e) => {
-        e.preventDefault();
-
-        if (name && email && message) {
-            if (isEmail(email)) {
-                const responseData = {
-                    name: name,
-                    email: email,
-                    message: message,
-                };
-
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
-                    console.log('success');
-                    setSuccess(true);
-                    setErrMsg('');
-
-                    setName('');
-                    setEmail('');
-                    setMessage('');
-                    setOpen(false);
-                });
-            } else {
-                setErrMsg('Invalid email');
-                setOpen(true);
-            }
-        } else {
-            setErrMsg('Enter all the fields');
-            setOpen(true);
-        }
-    };
 
     return (
         <div
