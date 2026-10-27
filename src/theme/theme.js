@@ -4,8 +4,8 @@ import {
 
 export const greenThemeDark = {
     type: 'dark',
-    primary: '#b5d4ffff',
-    primary400: '#9db9e0ff',
+    primary: 'rgb(255, 251, 216)',
+    primary400: 'rgb(158, 224, 157)',
     primary600: '#f9f9f9',
     primary80: '#9b9b9bcc',
     primary50: '#9b9b9bb3',
